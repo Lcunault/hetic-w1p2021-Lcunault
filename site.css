@@ -8,14 +8,9 @@ body {
   color: red;
 }
 .titre {
-  background: linear-gradient(blue, white);
+  color: red;
   margin-left: -8%;
   margin-right: -8%;
-}
-.wiki {
-  margin-left: 5%;
-  margin-right: 5%;
-  color: #7CFC00;
 }
 .my-video {
   z-index: -1;
@@ -38,7 +33,7 @@ body {
 }
 .barre{
     display: table;
-    width: 500px;
+    width: 1500px;
     margin: 100px auto;
     padding: 0;
     margin-top: -10%;
@@ -220,6 +215,21 @@ ul li img:hover{
   -o-filter: grayscale(1) blur(5px);
   filter: grayscale(1) blur(5px);
 }
+.musique1{
+  margin-left: -10%;
+  margin-top: -15%;
+}
+.musique2{
+  margin-left: -10%;
+  margin-top: 0.5%
+}
+.musique3{
+  margin-left: -10%;
+  margin-top: 0.5%
+}
+
+
+
 
 
 
