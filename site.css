@@ -155,71 +155,82 @@ ul li img:hover{
 }
 .tokyo:hover{
   -webkit-transform: scale(1.5);
-      -moz-transform: scale(1.5);
-       -ms-transform: scale(1.5);
-        -o-transform: scale(1.5);
-           transform: scale(1.5);
-  }
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
 .tokyo{
-    -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-        -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-         -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-          -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-             transition: all .5s cubic-bezier( .6, 2, .4, 1);
-    }
+ -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+ -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+ -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+ -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+ transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
 
-    .tokyo:hover .tokyo:not(:hover){
-      -webkit-filter: grayscale(1) blur(5px);
-          -moz-filter: grayscale(1) blur(5px);
-           -ms-filter: grayscale(1) blur(5px);
-            -o-filter: grayscale(1) blur(5px);
-               filter: grayscale(1) blur(5px);
-      }
-      .ville:hover{
-        -webkit-transform: scale(1.5);
-            -moz-transform: scale(1.5);
-             -ms-transform: scale(1.5);
-              -o-transform: scale(1.5);
-                 transform: scale(1.5);
-        }
-      .ville{
-          -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-              -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-               -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                   transition: all .5s cubic-bezier( .6, 2, .4, 1);
-          }
+.tokyo:hover .tokyo:not(:hover){
+  -webkit-filter: grayscale(1) blur(5px);
+  -moz-filter: grayscale(1) blur(5px);
+  -ms-filter: grayscale(1) blur(5px);
+  -o-filter: grayscale(1) blur(5px);
+  filter: grayscale(1) blur(5px);
+}
+.ville:hover{
+   -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+   -ms-transfo m: scale(1.5);
+   -o-transform: scale(1.5);
+   transform: scale(1.5);
+}
+.ville{
+  -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
       
-          .ville:hover .ville:not(:hover){
-            -webkit-filter: grayscale(1) blur(5px);
-                -moz-filter: grayscale(1) blur(5px);
-                 -ms-filter: grayscale(1) blur(5px);
-                  -o-filter: grayscale(1) blur(5px);
-                     filter: grayscale(1) blur(5px);
-            }
+.ville:hover .ville:not(:hover){
+  -webkit-filter: grayscale(1) blur(5px);
+  -moz-filter: grayscale(1) blur(5px);
+  -ms-filter: grayscale(1) blur(5px);
+  -o-filter: grayscale(1) blur(5px);
+  filter: grayscale(1) blur(5px);
+}
 
-            .japonaise:hover{
-              -webkit-transform: scale(1.5);
-                  -moz-transform: scale(1.5);
-                   -ms-transform: scale(1.5);
-                    -o-transform: scale(1.5);
-                       transform: scale(1.5);
-              }
-            .japonaise{
-                -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                    -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                         transition: all .5s cubic-bezier( .6, 2, .4, 1);
-                }
+.japonaise:hover{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.japonaise{
+  -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
             
-                .japonaise:hover .japonaise:not(:hover){
-                  -webkit-filter: grayscale(1) blur(5px);
-                      -moz-filter: grayscale(1) blur(5px);
-                       -ms-filter: grayscale(1) blur(5px);
-                        -o-filter: grayscale(1) blur(5px);
-                           filter: grayscale(1) blur(5px);
-                  }
+.japonaise:hover .japonaise:not(:hover){
+  -webkit-filter: grayscale(1) blur(5px);
+  -moz-filter: grayscale(1) blur(5px);
+  -ms-filter: grayscale(1) blur(5px);
+  -o-filter: grayscale(1) blur(5px);
+  filter: grayscale(1) blur(5px);
+}
+
+
+
+
+
+
+
+
+
+
+                  
 
 
 
